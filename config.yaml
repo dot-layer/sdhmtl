@@ -31,7 +31,7 @@ params:
 
   # Titles which you can translate to other languages
   Titles:
-    about: "À propos"
+    about: "À propos de l'événement"
     location: "Location"
     speakers: "Conférencier·ère·s"
     schedule: "Schedule"
