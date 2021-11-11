@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://dot-layer.github.io/sdhmtl/"
 title: "Conference name"
 canonifyurls: true
 theme: "hugo-conference"
