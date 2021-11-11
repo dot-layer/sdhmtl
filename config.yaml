@@ -1,0 +1,75 @@
+baseurl: "https://example.org/"
+title: "Conference name"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Conférence SDHMTL"
+  #Description: "Conference description"
+  Date: "Automne 2022"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Endroit à confirmer"
+  #Address: "Boulevard Kukulcan, 30"
+  City:  "Montréal"
+  State: "QC"
+  Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    #- location
+    - speakers
+    #- schedule
+    #- sponsors
+    - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "À propos"
+    location: "Location"
+    speakers: "Conférencier·ère·s"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partenaires"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "S'inscrire!"
+    link: "http://register.example.com"
+
+  # List of Partners
+  Partners:
+    - name: ".Layer"
+      logo: "/img/dotlayer.png"
+      url: "https://www.dotlayer.org"
+
+  # The entire schedule
+  Schedule:
+    - name: "Accueil / Déjeuner"
+      time: "9h00"
+
+    - name: "J.P. Le Cavalier"
+      photo: "/img/jplecavalier.jpeg"
+      bio: >
+        Je travaille comme scientifique de données principal au siège social de Promutuel Assurance
+        situé dans la ville de Québec au Canada. Dans mes temps libres, je cultive mes passions pour
+        le hockey et la programmation en explorant sous différents angles les données de la LNH.
+      company: "Promutuel Assurance"
+      link:
+        href: "http://twitter.com/Lecavalier300"
+        text: "@Lecavalier300"
+      presentation:
+        title: "Exploration des données de la LNH en R avec tidynhl"
+        description: >
+          Cette présentation se veut une introduction au package R tidynhl. Celui-ci offre une
+          interface simplifiée à l'API de statistiques de la LNH permettant d'extraire facilement
+          plusieurs données dans un format prêt à être utilisé.
+        time: "10h00"
