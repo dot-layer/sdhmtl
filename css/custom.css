@@ -1,0 +1,9 @@
+ul.block {
+  padding-left: 40px;
+}
+
+ul.block li {
+  list-style-type: disc;
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
