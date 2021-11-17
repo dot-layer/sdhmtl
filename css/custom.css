@@ -12,3 +12,36 @@ ul.block li {
   background-attachment: fixed;
   background-position: center -200px;
 }
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.organizers-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.organizer-item {
+  display: block;
+  min-height: 180px;
+  min-width: 180px;
+}
+
+.organizer-photo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.organizer-name {
+  display: block;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.organizer-photo .photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
+}
