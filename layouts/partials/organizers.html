@@ -1,0 +1,17 @@
+<h2 class="section-title">{{ .titles.organizers }}</h2>
+
+<ul class="organizers-list">
+{{ range $organizer := .organizers }}
+  <li class="organizer-item" itemscope itemtype="http://schema.org/Person">
+    
+      <span class="organizer-photo">
+        <img class="photo" src="{{ .photo }}" alt="{{ .name }}" itemprop="image">
+      </span>
+      
+      <span class="organizer-name">
+        {{ .name }}
+      </span>
+    
+  </li>
+{{ end }}
+</ul>
