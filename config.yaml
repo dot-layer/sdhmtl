@@ -24,6 +24,7 @@ params:
     - about
     #- location
     - speakers
+    - organizers
     #- schedule
     #- sponsors
     - partners
@@ -34,6 +35,7 @@ params:
     about: "À propos de l'événement"
     location: "Location"
     speakers: "Conférencier·ère·s"
+    organizers: "Comité organisateur"
     schedule: "Schedule"
     sponsors: "Sponsors"
     partners: "Partenaires"
@@ -44,6 +46,16 @@ params:
   CallToAction:
     text: "S'inscrire!"
     link: "http://register.example.com"
+    
+  Organizers:
+    - name: "J.P. Le Cavalier"
+      photo: "/img/jplecavalier.jpeg"
+    - name: "Stéphane Caron"
+      photo: "/img/stecaron.jpeg"
+    - name: "Samuel Perreault"
+      photo: "/img/samperochkin.jpeg"
+    - name: "Philippe Blouin-Leclerc"
+      photo: "/img/philbl.jpeg"
 
   # List of Partners
   Partners:
