@@ -8,10 +8,15 @@ ul.block li {
   line-height: 1.6em;
 }
 
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
 .header {
-  background-attachment: fixed;
-  background-position: center -200px;
+  background-position: center center;
+  background-size: cover;
 }
+
 
 /* =============================================================================
    SPEAKER
