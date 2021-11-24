@@ -8,17 +8,24 @@ ul.block li {
   line-height: 1.6em;
 }
 
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
 .header {
   background-attachment: fixed;
-  background-position: center -200px;
+  background-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 /* =============================================================================
    SPEAKER
    ========================================================================== */
 .organizers-list {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .organizer-item {
@@ -44,4 +51,32 @@ ul.block li {
 .organizer-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .organizer-item {
+    min-height: 120px;
+    min-width: 120px;
+  }
+  
+  .organizer-photo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .organizer-name {
+    font-size: 1.2em;
+  }
+
+  .organizer-photo .photo {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+  }
+  
+  .header {
+    background-attachment: initial;
+    background-position: center center;
+  }
+  
 }
