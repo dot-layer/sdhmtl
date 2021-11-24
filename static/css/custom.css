@@ -14,7 +14,7 @@ ul.block li {
    ========================================================================== */
 .header {
   background-attachment: fixed;
-  background-position: center -300px;
+  background-position: center -200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
