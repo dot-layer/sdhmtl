@@ -7,11 +7,12 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Conférence SDHMTL"
+  Name: "Conférence"
+  Name2: "Science des données et hockey"
   #Description: "Conference description"
   Date: "Automne 2022"
   #Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Endroit à confirmer"
+  Venue: "endroit à confirmer"
   #Address: "Boulevard Kukulcan, 30"
   City:  "Montréal"
   State: "QC"
@@ -44,8 +45,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "S'inscrire!"
-    link: "http://register.example.com"
+    text: "Inscriptions à venir"
+    link: "#"
     
   Organizers:
     - name: "J.P. Le Cavalier"
@@ -53,7 +54,7 @@ params:
     - name: "Stéphane Caron"
       photo: "/img/stecaron.jpeg"
     - name: "Samuel Perreault"
-      photo: "/img/samperochkin.jpeg"
+      photo: "/img/samperochkin.jpg"
     - name: "Philippe Blouin-Leclerc"
       photo: "/img/philbl.jpeg"
 
