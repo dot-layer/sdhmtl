@@ -18,6 +18,15 @@ ul.block li {
   background-size: cover;
 }
 
+.logo-name {
+  font-size: 6em;
+}
+
+.tagline {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
 
 /* =============================================================================
    SPEAKER
@@ -76,6 +85,10 @@ ul.block li {
   .header {
     background-attachment: initial;
     background-position: center center;
+  }
+  
+  .logo-name {
+    font-size: 3em;
   }
   
 }
