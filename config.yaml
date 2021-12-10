@@ -49,14 +49,14 @@ params:
     link: "#"
     
   Organizers:
-    - name: "J.P. Le Cavalier"
-      photo: "/img/jplecavalier.jpeg"
     - name: "Stéphane Caron"
       photo: "/img/stecaron.jpeg"
+    - name: "J.P. Le Cavalier"
+      photo: "/img/jplecavalier.jpeg"
     - name: "Samuel Perreault"
       photo: "/img/samperochkin.jpg"
-    - name: "Philippe Blouin-Leclerc"
-      photo: "/img/philbl.jpeg"
+    - name: "Jonathan Tremblay"
+      photo: "/img/jonathantremblay.jpg"
 
   # List of Partners
   Partners:
